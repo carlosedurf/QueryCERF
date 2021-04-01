@@ -1,0 +1,22 @@
+{
+    "name": "cerf/querycerf",
+    "description": "Package to make sql queries",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SourceTest\\": "tests/"
+        }
+    }
+}
